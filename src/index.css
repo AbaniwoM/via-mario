@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;500&display=swap');
 body {
   font-family: 'Urbanist', sans-serif;
-  /* background-color: Coral; */
 }
 
 .navbar {
@@ -35,6 +34,13 @@ body {
 
 .language {
   font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.language:hover {
+  color: teal;
   cursor: pointer;
 }
 
@@ -60,14 +66,34 @@ body {
 
 .register {
   margin-left: 25px;
+  font-weight: bold;
+}
+
+.register:hover {
+  color: teal;
+  cursor: pointer;
 }
 
 .signIn {
   margin-left: 25px;
+  font-weight: bold;
+}
+
+.signIn:hover {
+  color: teal;
+  cursor: pointer;
 }
 
 .cart {
   margin-left: 25px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 30px;
+}
+
+.cart:hover {
+  color: teal;
+  cursor: pointer;
 }
 
 .searchIcon {
@@ -105,6 +131,7 @@ body {
   align-items: center;
   font-size: 1.5rem;
   opacity: 0.5;
+  z-index: 1;
 }
 
 .rightArrow {
@@ -132,7 +159,820 @@ body {
   cursor: pointer; 
 }
 
-.imgContainer {
-  background-image: url("./images/shopping.jpg");
-  z-index: 1;
+.wrapper {
+  background: url('./images/ecommerce-bg.jpg');
+  width: 100%;
+  height: 100vh;
+  margin-left: -25px;
+  margin-top: 3px;
+  position: absolute;
+  background-size: cover;
 }
+
+.infoContainer {
+  width: 30%;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.infoContainer h1 {
+  color: teal;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.infoContainer h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: -40px;
+}
+
+.infoContainer p {
+  font-size: 1.2rem;
+  line-height: 25px;
+  margin-top: -30px;
+}
+
+.infoContainer button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 42px;
+  padding-left: 42px;
+  margin-top: 5px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.infoContainer button:hover {
+  background-color: white;
+  border: 1px solid teal;
+  color: teal;
+}
+
+.shop {
+  height: 50vh;
+}
+
+.boxes {
+  display: flex;
+  margin-top: 60px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+  height: 32vh;
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 96px;
+}
+
+.delivery-icon {
+  font-size: 3.5rem;
+  margin-top: 10px;
+}
+
+.fast {
+  text-align: center;
+  margin-top: -20px;
+  width: 75%;
+}
+
+.fast h3 {
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
+
+.fast p {
+  font-size: 1.1rem;
+  margin-top: -10px;
+  line-height: 22px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+  height: 32vh;
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.free-icon {
+  font-size: 3.5rem;
+  margin-top: 10px;
+}
+
+.free {
+  text-align: center;
+  margin-top: -20px;
+  width: 75%;
+}
+
+.free h3 {
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
+
+.free p {
+  font-size: 1.1rem;
+  margin-top: -10px;
+  line-height: 22px;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+  height: 32vh;
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.best-icon {
+  font-size: 2.3rem;
+  margin-top: 20px;
+}
+
+.best {
+  text-align: center;
+  margin-top: -20px;
+  width: 75%;
+}
+
+.best h3 {
+  font-size: 1.3rem;
+  margin-top: 23px;
+}
+
+.best p {
+  font-size: 1.1rem;
+  margin-top: -10px;
+  line-height: 22px;
+}
+
+.line {
+  border-bottom: 6px solid black;
+  width: 5%;
+  margin-left: 624px;
+  margin-top: -23px;
+}
+
+.shop h1 {
+  margin-top: 70px;
+  font-size: 3.2rem;
+  text-align: center;
+  color: teal;
+}
+
+.new-arrivals {
+  background: url('./images/new-stock.jpg');
+  width: 102%;
+  height: 80vh;
+  margin-left: -20px;
+  margin-top: 160px;
+  position: relative;
+  background-size: cover;
+}
+
+.arrivalContainer {
+  margin-left: 680px;
+  margin-top: 100px;
+  position: absolute;
+  width: 34%;
+}
+
+.arrivalContainer h1 {
+  font-size: 3.3rem;
+  color: teal;
+}
+
+.arrivalContainer p {
+  font-size: 1.2rem;
+  line-height: 26px;
+  margin-top: -15px;
+}
+
+.new {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 42px;
+  padding-left: 42px;
+  margin-top: 5px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.new:hover {
+  background-color: white;
+  border: 1px solid teal;
+  color: teal;
+}
+
+.products {
+  margin-top: 80px;
+}
+
+.our-products {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.line2 {
+  border-bottom: 6px solid black;
+  width: 5%;
+  margin-left: 624px;
+  margin-top: 13px;
+}
+
+.goods {
+  color: teal;
+  margin-left: 12px;
+}
+
+.img1 {
+  background: url('./images/perfume1.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product1 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 115px;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.text1 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.row1 {
+  display: flex;
+  margin-top: 55px;
+}
+
+.img2 {
+  background: url('./images/perfume2.jpeg');
+  width: 13%;
+  height: 34vh;
+  margin-top: -29px;
+  position: absolute;
+  background-size: cover;
+}
+
+.product2 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text2 {
+  display: flex;
+  margin-top: 264px;
+  position: absolute;
+}
+
+.price2 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img3 {
+  background: url('./images/perfume3.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product3 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text3 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price3 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img4 {
+  background: url('./images/perfume4.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product4 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 115px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text4 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price4 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.row2 {
+  display: flex;
+  margin-top: 55px;
+}
+
+.img5 {
+  background: url('./images/footwear1.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product5 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text5 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price5 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img6 {
+  background: url('./images/footwear2.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product6 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text6 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price6 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label6 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img7 {
+  background: url('./images/footwear3.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product7 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 115px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text7 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price7 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label7 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.row3 {
+  display: flex;
+  margin-top: 55px;
+}
+
+.img8 {
+  background: url('./images/footwear4.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product8 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text8 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price8 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label8 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img9 {
+  background: url('./images/footwear5.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product9 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text9 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price9 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label9 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img10 {
+  background: url('./images/footwear6.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product10 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 115px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text10 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price10 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label10 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.row4 {
+  display: flex;
+  margin-top: 55px;
+}
+
+.img11 {
+  background: url('./images/footwear7.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product11 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text11 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price11 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label11 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img12 {
+  background: url('./images/footwear8.jpeg');
+  width: 55%;
+  height: 34vh;
+  margin-top: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.product12 {
+  width: 25%;
+  height: 58vh;
+  background-color: rgb(243, 240, 240);
+  align-items: center;
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text12 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.price12 {
+  margin-left: 155px;
+  font-size: 1.2rem;
+}
+
+.label12 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.view {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 42px;
+  padding-left: 42px;
+  margin-top: 45px;
+  margin-left: 550px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.view:hover {
+  background-color: white;
+  border: 1px solid teal;
+  color: teal;
+}
+
+.btn1 {
+  position: absolute;
+  top: 110px;
+  right: 86px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.product1:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product2:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.btn2 {
+  position: absolute;
+  top: 165px;
+  right: 87px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn3 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn4 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn4:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+
