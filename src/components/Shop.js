@@ -10,6 +10,16 @@ import { FaMedal } from "react-icons/fa";
 const Shop = () => {
   const [isHovered, setHover] = useState(false);
   const [isHovered2, setHover2] = useState(false);
+  const [isHovered3, setHover3] = useState(false);
+  const [isHovered4, setHover4] = useState(false);
+  const [isHovered5, setHover5] = useState(false);
+  const [isHovered6, setHover6] = useState(false);
+  const [isHovered7, setHover7] = useState(false);
+  const [isHovered8, setHover8] = useState(false);
+  const [isHovered9, setHover9] = useState(false);
+  const [isHovered10, setHover10] = useState(false);
+  const [isHovered11, setHover11] = useState(false);
+  const [isHovered12, setHover12] = useState(false);
 
   return (
     <div className="container">
@@ -134,8 +144,14 @@ const Shop = () => {
                 <div className="price2">#</div>
             </div>
         </div>
-        <div className="product3">
+        <div className="product3" onMouseOver={() => setHover3(true)} onMouseLeave={() => setHover3(false)}>
             <div className="img3"></div>
+            {isHovered3 && (
+                <button className="btn5">Add To Cart</button>
+            )}
+            {isHovered3 && (
+                <button className="btn6">Buy Now</button>
+            )}
             <div className="text3">
                 <div className="label3">Perfumery</div>
                 <div className="price3">#</div>
@@ -143,22 +159,40 @@ const Shop = () => {
         </div>
         </div>
         <div className="row2">
-        <div className="product4">
+        <div className="product4" onMouseOver={() => setHover4(true)} onMouseLeave={() => setHover4(false)}>
             <div className="img4"></div>
+            {isHovered4 && (
+                <button className="btn7">Add To Cart</button>
+            )}
+            {isHovered4 && (
+                <button className="btn8">Buy Now</button>
+            )}
             <div className="text4">
                 <div className="label4">Perfumery</div>
                 <div className="price4">#</div>
             </div>
         </div>
-        <div className="product5">
+        <div className="product5" onMouseOver={() => setHover5(true)} onMouseLeave={() => setHover5(false)}>
             <div className="img5"></div>
+            {isHovered5 && (
+                <button className="btn9">Add To Cart</button>
+            )}
+            {isHovered5 && (
+                <button className="btn10">Buy Now</button>
+            )}
             <div className="text5">
                 <div className="label5">Footwear</div>
                 <div className="price5">#</div>
             </div>
         </div>
-        <div className="product6">
+        <div className="product6" onMouseOver={() => setHover6(true)} onMouseLeave={() => setHover6(false)}>
             <div className="img6"></div>
+            {isHovered6 && (
+                <button className="btn11">Add To Cart</button>
+            )}
+            {isHovered6 && (
+                <button className="btn12">Buy Now</button>
+            )}
             <div className="text6">
                 <div className="label6">Footwear</div>
                 <div className="price6">#</div>
@@ -166,22 +200,40 @@ const Shop = () => {
         </div>
         </div>
         <div className="row3">
-        <div className="product7">
+        <div className="product7" onMouseOver={() => setHover7(true)} onMouseLeave={() => setHover7(false)}>
             <div className="img7"></div>
+            {isHovered7 && (
+                <button className="btn13">Add To Cart</button>
+            )}
+            {isHovered7 && (
+                <button className="btn14">Buy Now</button>
+            )}
             <div className="text7">
                 <div className="label7">Footwear</div>
                 <div className="price7">#</div>
             </div>
         </div>
-        <div className="product8">
+        <div className="product8" onMouseOver={() => setHover8(true)} onMouseLeave={() => setHover8(false)}>
             <div className="img8"></div>
+            {isHovered8 && (
+                <button className="btn15">Add To Cart</button>
+            )}
+            {isHovered8 && (
+                <button className="btn16">Buy Now</button>
+            )}
             <div className="text8">
                 <div className="label8">Footwear</div>
                 <div className="price8">#</div>
             </div>
         </div>
-        <div className="product9">
+        <div className="product9" onMouseOver={() => setHover9(true)} onMouseLeave={() => setHover9(false)}>
             <div className="img9"></div>
+            {isHovered9 && (
+                <button className="btn17">Add To Cart</button>
+            )}
+            {isHovered9 && (
+                <button className="btn18">Buy Now</button>
+            )}
             <div className="text9">
                 <div className="label9">Footwear</div>
                 <div className="price9">#</div>
@@ -189,22 +241,40 @@ const Shop = () => {
         </div>
         </div>
         <div className="row4">
-        <div className="product10">
+        <div className="product10" onMouseOver={() => setHover10(true)} onMouseLeave={() => setHover10(false)}>
             <div className="img10"></div>
+            {isHovered10 && (
+                <button className="btn19">Add To Cart</button>
+            )}
+            {isHovered10 && (
+                <button className="btn20">Buy Now</button>
+            )}
             <div className="text10">
                 <div className="label10">Footwear</div>
                 <div className="price10">#</div>
             </div>
         </div>
-        <div className="product11">
+        <div className="product11" onMouseOver={() => setHover11(true)} onMouseLeave={() => setHover11(false)}>
             <div className="img11"></div>
+            {isHovered11 && (
+                <button className="btn21">Add To Cart</button>
+            )}
+            {isHovered11 && (
+                <button className="btn22">Buy Now</button>
+            )}
             <div className="text11">
                 <div className="label11">Footwear</div>
                 <div className="price11">#</div>
             </div>
         </div>
-        <div className="product12">
+        <div className="product12" onMouseOver={() => setHover12(true)} onMouseLeave={() => setHover12(false)}>
             <div className="img12"></div>
+            {isHovered12 && (
+                <button className="btn23">Add To Cart</button>
+            )}
+            {isHovered12 && (
+                <button className="btn24">Buy Now</button>
+            )}
             <div className="text12">
                 <div className="label12">Footwear</div>
                 <div className="price12">#</div>

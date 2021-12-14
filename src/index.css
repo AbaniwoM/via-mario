@@ -491,10 +491,10 @@ body {
 
 .img3 {
   background: url('./images/perfume3.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
-  margin-top: 20px;
-  position: relative;
+  margin-top: -29px;
+  position: absolute;
   background-size: cover;
 }
 
@@ -511,7 +511,8 @@ body {
 
 .text3 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price3 {
@@ -526,10 +527,10 @@ body {
 
 .img4 {
   background: url('./images/perfume4.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -546,7 +547,8 @@ body {
 
 .text4 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price4 {
@@ -566,10 +568,10 @@ body {
 
 .img5 {
   background: url('./images/footwear1.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -586,7 +588,8 @@ body {
 
 .text5 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price5 {
@@ -601,10 +604,10 @@ body {
 
 .img6 {
   background: url('./images/footwear2.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -621,7 +624,8 @@ body {
 
 .text6 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price6 {
@@ -636,10 +640,10 @@ body {
 
 .img7 {
   background: url('./images/footwear3.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -656,7 +660,8 @@ body {
 
 .text7 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price7 {
@@ -676,10 +681,10 @@ body {
 
 .img8 {
   background: url('./images/footwear4.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -696,7 +701,8 @@ body {
 
 .text8 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price8 {
@@ -711,10 +717,10 @@ body {
 
 .img9 {
   background: url('./images/footwear5.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -731,7 +737,8 @@ body {
 
 .text9 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price9 {
@@ -746,10 +753,10 @@ body {
 
 .img10 {
   background: url('./images/footwear6.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -766,7 +773,8 @@ body {
 
 .text10 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price10 {
@@ -786,10 +794,10 @@ body {
 
 .img11 {
   background: url('./images/footwear7.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -806,7 +814,8 @@ body {
 
 .text11 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price11 {
@@ -821,10 +830,10 @@ body {
 
 .img12 {
   background: url('./images/footwear8.jpeg');
-  width: 55%;
+  width: 13%;
   height: 34vh;
   margin-top: 20px;
-  position: relative;
+  position: absolute;
   background-size: cover;
 }
 
@@ -841,7 +850,8 @@ body {
 
 .text12 {
   display: flex;
-  margin-top: 30px;
+  margin-top: 264px;
+  position: absolute;
 }
 
 .price12 {
@@ -904,6 +914,66 @@ body {
 }
 
 .product2:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product3:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product4:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product5:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product6:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product7:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product8:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product9:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product10:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product11:hover {
+  background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
+  cursor: pointer;
+  background: #beb2b2;
+}
+
+.product12:hover {
   background: linear-gradient(rgba(182, 177, 182, 0.8), rgba(230, 227, 227, 0.8));
   cursor: pointer;
   background: #beb2b2;
@@ -974,5 +1044,467 @@ body {
   color: teal;
   border: 1px solid teal;
 }
+
+.btn5 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn5:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn6 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn6:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn7 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn7:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn8 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn8:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn9 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn9:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn10 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn10:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn11 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn11:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn12 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn12:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn13 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn13:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn14 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn14:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn15 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn15:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn16 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn16:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn17 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn17:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn18 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn18:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn19 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn19:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn20 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn20:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn21 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn21:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn22 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn22:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn23 {
+  position: relative;
+  top: -30px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn23:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn24 {
+  position: relative;
+  top: -15px;
+  right: 1px;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn24:hover {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
