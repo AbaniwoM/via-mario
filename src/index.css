@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
   font-family: 'Urbanist', sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -58,6 +60,8 @@ body {
 
 .logo h1 {
   font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Lobster', cursive;
 }
 
 .menuItem {
@@ -1484,6 +1488,243 @@ body {
   color: teal;
   border: 1px solid teal;
 }
+
+
+/* Register modal */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+  display: block;
+  font-family: 'Raleway', sans-serif;
+}
+
+.modalContent {
+  background: #f4f4f4;
+  margin: 10% auto;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 500px;
+  display: flex;
+  margin-top: 60px;
+}
+
+.modalImg {
+  width: 80%;
+  height: 80%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.modalContentLeft {
+  background: url('./images/new-arrivals.jpg');
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  margin-left: -7px;
+}
+
+.modalContentLeft2 {
+  background: url('./images/shopping.jpg');
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  margin-left: -7px;
+}
+
+.modalContentRight {
+  border-radius: 0 3px 3px 0;
+  position: relative; 
+}
+
+.closeModal {
+  z-index: 1;
+  position: absolute;
+  right: 3%;
+  font-size: 1rem;
+  margin-left: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: teal;
+  background: none;
+  border: none;
+}
+
+.closeModal:hover {
+  transition: 0.2s ease-out;
+  color: rgb(45, 180, 180);
+  cursor: pointer;
+}
+
+.logo2 {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  color: teal;
+}
+
+.vest2 {
+  margin-left: 6px;
+}
+
+.modalForm {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formHead {
+  font-size: 0.9rem;
+  text-align: start;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgb(15, 15, 15);
+  width: 80%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.formValidation {
+  margin-bottom: 0.5rem;
+  width: 80%;
+}
+
+.formValidationError {
+  margin-bottom: 1.5rem;
+  position: relative;
+  border: 1px solid var(--errorColor);
+  border-radius: 2px;
+}
+
+.formValidationValid {
+  margin-bottom: 0.5rem;
+  position: relative;
+  border: 1px solid var(--validColor);
+  border-radius: 2px;
+}
+
+.formValidation p {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  color: var(--errorColor);
+  position: absolute;
+  top: 1.8rem;
+  display: none;
+}
+
+.formValidationError p {
+  display: block;
+}
+
+.modalInput {
+  display: block;
+  padding-left: 0.5rem;
+  outline: none;
+  border-radius: 2px;
+  border: none;
+  height: 2rem;
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+}
+
+.modalInput::placeholder {
+  color: var(--lightGray);
+}
+
+.modalInputBtn {
+  width: 80%;
+  height: 2rem;
+  border-radius: 2px;
+  background-color: teal;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold
+}
+
+.modalInputBtn:hover {
+  cursor: pointer;
+  background-color: rgb(45, 180, 180);
+  transition: all 0.4s ease-out;
+}
+
+.modalInputLogin {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  color: rgb(109, 107, 107);
+  width: 80%;
+  font-weight: 500;
+  text-align: center;
+}
+
+.modalInputLogin a {
+  text-decoration: none;
+  color: teal;
+  font-weight: 600;
+}
+
+.modalInputLogin2 {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  color: rgb(109, 107, 107);
+  width: 80%;
+  font-weight: 500;
+  text-align: center;
+}
+
+.modalInputLogin2 a {
+  text-decoration: none;
+  color: teal;
+  font-weight: 600;
+}
+
+
+
 
 
 
