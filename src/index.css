@@ -58,6 +58,36 @@ body {
   border: none;
 }
 
+.shop-logo {
+  background: url("./images/vmario-logo.jpeg");
+  width: 5%;
+  height: 9vh;
+  margin-top: 26px;
+  margin-left: 60px;
+  background-size: cover;
+  position: absolute;
+}
+
+.shop-logo2 {
+  background: url("./images/vmario-logo.jpeg");
+  width: 18%;
+  height: 9vh;
+  margin-top: -305px;
+  margin-left: -205px;
+  background-size: cover;
+  position: absolute;
+}
+
+.shop-logo3 {
+  background: url("./images/vmario-logo.jpeg");
+  width: 18%;
+  height: 9vh;
+  margin-top: -220px;
+  margin-left: -205px;
+  background-size: cover;
+  position: absolute;
+}
+
 .logo h1 {
   font-weight: bold;
   font-size: 2.5rem;

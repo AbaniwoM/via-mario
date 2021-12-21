@@ -62,6 +62,8 @@ const Shop = () => {
             </div>
         </div> 
         <div className="center">
+            <div className="shop-logo">
+            </div>
             <div className="logo">
                 <h1>Via Mario.</h1>
             </div>
@@ -317,6 +319,8 @@ const Shop = () => {
                     </div>
                     <div className="modalContentRight">
                           <form action="/" method="GET" className="modalForm" id="form">
+                            <div className="shop-logo2">
+                            </div>
                             <div className="logo2">
                             <div className="vest2">Via Mario</div>
                             </div>
@@ -356,6 +360,8 @@ const Shop = () => {
                     </div>
                     <div className="modalContentRight">
                         <form action="/" method="GET" className="modalForm" id="form">
+                            <div className="shop-logo3">
+                            </div>
                             <div className="logo2">
                             <div className="vest2">Via Mario</div>
                             </div>
