@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { GrSearch } from "react-icons/gr";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { MdArrowLeft, MdArrowRight, MdDeliveryDining } from "react-icons/md";
+import { AiOutlineMail, AiOutlineShoppingCart } from "react-icons/ai";
+import { MdOutlineLocationOn, MdDeliveryDining } from "react-icons/md";
 import { DiOpensource } from "react-icons/di";
 import { FaMedal } from "react-icons/fa";
-
+import { BsTelephone } from "react-icons/bs";
 
 const Shop = () => {
   const [isHovered, setHover] = useState(false);
@@ -79,10 +79,6 @@ const Shop = () => {
         </div> 
       </div>
       <div className="slider">
-        <div className="arrows">  
-            <div className="leftArrow">
-                <MdArrowLeft />
-            </div>
             <div className="wrapper">
                 <div className="infoContainer">
                    <h1>Sale 10% Off</h1>
@@ -91,10 +87,6 @@ const Shop = () => {
                    <button onClick={toggleModal} className="wrap-btn">Shop Now</button>
                 </div>
             </div>
-            <div className="rightArrow">
-                <MdArrowRight />
-            </div>
-        </div>
       </div>
       <div className="shop">
         <h1>Why Shop With Us?</h1>
@@ -307,6 +299,38 @@ const Shop = () => {
         </div>
         </div>
         <button className="view" onClick={toggleModal}>View All products</button>
+        <div className="footer">
+        <div className="foot">
+            <div className="foot-logo">
+            </div>
+            <div className="log">
+                <h1>Via Mario.</h1>
+            </div>
+        </div>
+        <div className="address">Contact</div> 
+        <div className="email">
+            <div className="email-icon">
+                <AiOutlineMail />
+            </div>
+            <div className="mail"></div>
+        </div> 
+        <div className="number">
+            <div className="number-icon">
+                <BsTelephone />
+            </div>
+            <div className="phone">07081202907, 08181077978</div>
+        </div> 
+        <div className="location">
+            <div className="location-icon">
+                <MdOutlineLocationOn />
+            </div>
+            <div className="place">36 Alhaji Yusuf,off coconut  bus-stop,Apspa-Oshodi Express way.</div>
+        </div>
+        <div className="copy-right">
+            <div className="copy">Implemented by <a href="https://www.linkedin.com/in/michael-abaniwo/">Michael Abaniwo</a> and <a href="https://www.linkedin.com/in/edikan-bassey/">Edikan Bassey</a></div>
+            <div className="right-date">&copy; 2021</div>
+        </div> 
+        </div>
       </div>
 
       {/* Register Modal */}
@@ -314,7 +338,7 @@ const Shop = () => {
           <div className="modal" id="register-modal" >
               <div className="overlay" onClick={toggleModal}></div>
                 <div className="modalContent">
-                    <button className="closeModal" onClick={toggleModal}>X</button>
+                    <button className="closeModal" onClick={toggleModal}>&times;</button>
                     <div className="modalContentLeft">
                     </div>
                     <div className="modalContentRight">
@@ -355,7 +379,7 @@ const Shop = () => {
           <div className="modal" id="modal2" >
               <div className="overlay" onClick={toggleModal2}></div>
                 <div className="modalContent">
-                    <button className="closeModal" onClick={toggleModal2}>X</button>
+                    <button className="closeModal" onClick={toggleModal2}>&times;</button>
                     <div className="modalContentLeft2">
                     </div>
                     <div className="modalContentRight">
