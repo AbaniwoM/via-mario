@@ -4,6 +4,7 @@ import './index.css';
 import Shop from './components/Shop';
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Shop />
